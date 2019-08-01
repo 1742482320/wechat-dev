@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="https://1742482320.github.io/images/avatar.jpg">
+        <title>微信</title>
+
+        <!-- 适配 -->
+        <script src="./plugins/lib-flexible.js"></script>
+        <!-- jquery -->
+        <script src="./js/jquery.js"></script>
+
+        <link rel="stylesheet" href="./css/reboot.css">
+
+        
+    </head>
+    <style>
+        body{
+            background: #efeff0;
+            padding-bottom: 1.493333rem;
+        }
+        .camere{
+            position: absolute;
+            top: .426667rem;
+            right: .426667rem;
+            width: .586667rem;
+        }
+        .header{
+            padding: 1.333333rem .48rem 1.066667rem;
+            background: #ffffff;
+            border-bottom: .266667rem solid #ededed;
+            display: flex;
+            align-items: flex-end;
+        }
+        .header .avartar{
+            border-radius: 6px;
+            width: 1.6rem;
+            height: 1.6rem;
+        }
+        .header .u-m{
+            height: 1.6rem;
+            padding: .16rem 0 .16rem .373333rem;
+            align-items: flex-start;
+        }
+        .header .wechat-name{
+            font-size: 26px;
+        }
+        .header .wecaht-number{
+            font-size: 16px;
+            color: #666666;
+        }
+        .header .code{
+            width: 1.706667rem;
+            height: .48rem;
+            display: flex;
+            justify-content: space-around;
+        }
+        .header .code img{
+            width: .48rem;
+        }
+        .con{
+            background-color: #ffffff;
+        }
+        .f-group{
+            border-bottom: .266667rem solid #ededed;
+        }
+        .f-l{
+            height: 1.44rem;
+            padding: 0 0 0 .48rem;
+        }
+        .f-l .f-icon{
+            width: .64rem;
+        }
+        .f-l .tip{
+            font-size: 20px;
+            padding-left: .266667rem;
+        }
+        .navb{
+            border-bottom: 1px solid #ededed;
+            flex-grow: 1;
+            height: 1.5rem;
+            padding-right: .373333rem;
+        }
+
+        .switchtab{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            background: #f7f7f7;
+            border-top: 1px solid #e3e3e3;
+            width: 100%;
+        }
+        .switchtab ul li{
+            flex: 1;
+            height: 1.44rem;
+            padding: .16rem 0;
+        }
+        .switchtab ul li img{
+            width: .64rem;
+        }
+        .switchtab ul li .tabname{
+            font-size: 14px;
+        }
+    </style>
+    <body>
+
+        <img class="camere" src="./images/msg.png" alt="">
+
+        <!-- 顶部 start -->
+        <div class="header">
+            <img class="avartar" src="./images/avartar.png" alt="">
+            <div class="d-item-group u-m">
+                <div class="wechat-name">海东</div>
+                <div class="wecaht-number">微信号：haidong97</div>
+            </div>
+            <div class="code ml-auto">
+                <img src="./images/msg.png" alt="">
+                <img src="./images/msg.png" alt="">
+            </div>
+        </div>
+        <!-- 顶部 end -->
+
+        <div class="con">
+            <div class="f-group">
+                <div class="f-l d-list-group">
+                    <img class="f-icon" src="./images/msg.png" alt="">
+                    <div class="navb d-list-group">
+                        <div class="tip">支付</div>
+                        <img class="ml-auto f-icon" src="./images/msg.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="f-group">
+                <div class="f-l d-list-group">
+                    <img class="f-icon" src="./images/msg.png" alt="">
+                    <div class="navb d-list-group">
+                        <div class="tip">收藏</div>
+                        <img class="ml-auto f-icon" src="./images/msg.png" alt="">
+                    </div>
+                </div>
+                <div class="f-l d-list-group">
+                    <img class="f-icon" src="./images/msg.png" alt="">
+                    <div class="navb d-list-group">
+                        <div class="tip">相册</div>
+                        <img class="ml-auto f-icon" src="./images/msg.png" alt="">
+                    </div>
+                </div>
+                <div class="f-l d-list-group">
+                    <img class="f-icon" src="./images/msg.png" alt="">
+                    <div class="navb d-list-group">
+                        <div class="tip">表情</div>
+                        <img class="ml-auto f-icon" src="./images/msg.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="f-group">
+                <div class="f-l d-list-group">
+                    <img class="f-icon" src="./images/msg.png" alt="">
+                    <div class="navb d-list-group">
+                        <div class="tip">支设置付</div>
+                        <img class="ml-auto f-icon" src="./images/msg.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部栏 -->
+        <div class="switchtab">
+            <ul class="d-list-group">
+                <li class="d-item-group">
+                    <img src="./images/msg.png" alt="">
+                    <div class="tabname">微信</div>
+                </li>
+                <li class="d-item-group">
+                    <img src="./images/rel.png" alt="">
+                    <div class="tabname">通讯录</div>
+                </li>
+                <li class="d-item-group">
+                    <img src="./images/fin.png" alt="">
+                    <div class="tabname">发现</div>
+                </li>
+                <li class="d-item-group"> 
+                    <img src="./images/user.png" alt="">
+                    <div class="tabname">我</div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

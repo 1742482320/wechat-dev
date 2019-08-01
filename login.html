@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="https://1742482320.github.io/images/avatar.jpg">
+        <title>微信</title>
+
+        <!-- 适配 -->
+        <script src="./plugins/lib-flexible.js"></script>
+        <!-- jquery -->
+        <script src="./js/jquery.js"></script>
+
+        <link rel="stylesheet" href="./css/reboot.css">
+    </head>
+    <style>
+        .avartar{
+            width: 2.133333rem;
+            height: 2.133333rem;
+            display: block;
+            padding-top: 2.293333rem;
+            margin: 0 auto;
+        }
+        .account{
+            font-size: 20px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .l-form{
+            padding: .96rem .32rem 0;
+        }
+        .l-i{
+            border-bottom: 1px solid #5cc5a2;
+            height: 1.333333rem;
+            padding: 0 .266667rem;
+        }
+        .tip{
+            font-size: 20px;
+            color: #000000;
+            margin-right: .8rem;
+        }
+        .password{
+            font-size: 20px;
+            flex-grow: 1;
+            background: inherit;
+        }
+        .password::-webkit-input-placeholder{ /*WebKit browsers*/
+            color: #dddddd;
+        }
+
+        .password::-moz-input-placeholder{ /*Mozilla Firefox*/
+            color: #dddddd;
+        }
+
+        .password::-ms-input-placeholder{ /*Internet Explorer*/ 
+            color: #dddddd;
+        }
+        .shortmsg{
+            font-size: 16px;
+            color: blue;
+            padding-top: .373333rem;
+            padding-left: .266667rem;
+            padding-bottom: 1.066667rem;
+        }
+        .dologin{
+            width: 100%;
+            height: 1.333333rem;
+            color: #ffffff;
+            text-align: center;
+            line-height: 1.333333rem;
+            background: #5cc5a2;
+            border-radius: 4px;
+            font-size: 20px;
+        }
+
+        .foo{
+            position: absolute;
+            bottom: .533333rem;
+            width: 100%;
+        }
+        .foo ul {
+            display: flex;
+            justify-content: center;
+        }
+        .foo ul li{
+            display: flex;
+            padding: 4px .266667rem;
+            font-size: 14px;
+            color: blue;
+        }
+        .foo ul>li+li{
+            border-left: 1px solid #cccccc;
+        }
+
+    </style>
+    <body>
+        <img class="avartar" src="./images/avartar.png" alt="">
+        <div class="account">19162107191</div>
+        <form class="l-form" action="#">
+            <div class="d-list-group l-i">
+                <div class="tip">密码</div>
+                <input class="password" placeholder="请填写微信密码" type="password">
+            </div>
+            <div class="shortmsg">用短信验证码登录</div>
+            <button class="dologin" type="submit">登录</button>
+        </form>
+        <div class="foo">
+            <ul>
+                <li>找回密码</li>
+                <li>紧急冻结</li>
+                <li>更多</li>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" href="https://1742482320.github.io/images/avatar.jpg">
+        <title>微信</title>
+
+        <!-- 适配 -->
+        <script src="./plugins/lib-flexible.js"></script>
+        <!-- jquery -->
+        <script src="./js/jquery.js"></script>
+
+        <link rel="stylesheet" href="./css/reboot.css">
+
+        
+    </head>
+    <style>
+        body{
+            background: #efeff0;
+            padding-top: 1.333333rem;
+            padding-bottom: 1.493333rem;
+        }
+        .header{
+            height: 1.333333rem;
+            width: 100%;
+            background: #ededed;
+            padding: 0 .266667rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        .p-title{
+            font-size: 20px;
+        }
+        .h-i{
+            height: .586667rem;
+            width: .586667rem;
+            padding-left: .8rem;
+            box-sizing: content-box;
+        }
+        .con{
+            background-color: #ffffff;
+        }
+        .l-img{
+            width: 1.333333rem;
+            height: 1.333333rem;
+            border-radius: 4px;
+            margin-left: .426667rem;
+        }
+        .l-m{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: .373333rem 0;
+            border-bottom: 1px solid #f4f4f4;
+            position: relative;
+            flex-grow: 0.8;
+            height: 1.866667rem;
+            margin-left: .373333rem;
+        }
+        .l-m .name{
+            font-size: 20px;
+        }
+
+        .l-re {
+            display: flex;
+            justify-content: center;
+            flex-grow: 0.95;
+        }
+        .leterr{
+            font-size: 12px;
+            color: #8c8c8c;
+            height: .8rem;
+            line-height: .8rem;
+            padding-left: .373333rem;
+            background: #efeff0;
+        }
+
+        .switchtab{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            background: #f7f7f7;
+            border-top: 1px solid #e3e3e3;
+            width: 100%;
+        }
+        .switchtab ul li{
+            flex: 1;
+            height: 1.44rem;
+            padding: .16rem 0;
+        }
+        .switchtab ul li img{
+            width: .64rem;
+        }
+        .switchtab ul li .tabname{
+            font-size: 14px;
+        }
+    </style>
+    <body>
+
+        <!-- 顶部 start -->
+        <div class="header d-list-group">
+            <div class="p-title">
+                通讯录
+            </div>
+            <img class="h-i ml-auto" src="./images/search.png" alt="">
+            <img class="h-i" src="./images/plus.png" alt="">
+        </div>
+        <!-- 顶部 end -->
+        <div class="con">
+
+            <div class="d-list-group">
+                <img class="l-img" src="./images/avartar.png" alt="">
+                <div class="l-m l-re">
+                    <div class="name">新的朋友</div>   
+                </div>
+            </div>
+
+            <div class="d-list-group">
+                <img class="l-img" src="./images/avartar.png" alt="">
+                <div class="l-m l-re">
+                    <div class="name">群聊</div>  
+                </div>
+            </div>
+
+            <div class="d-list-group">
+                <img class="l-img" src="./images/avartar.png" alt="">
+                <div class="l-m l-re">
+                    <div class="name">标签</div>  
+                </div>
+            </div>
+
+            <div class="d-list-group">
+                <img class="l-img" src="./images/avartar.png" alt="">
+                <div class="l-m l-re">
+                    <div class="name">公众号</div>  
+                </div>
+            </div>
+
+            <div class="letterfirends">
+                <div class="leterr">D</div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+            </div>
+            <div class="letterfirends">
+                <div class="leterr">D</div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+            </div>
+            <div class="letterfirends">
+                <div class="leterr">D</div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+            </div>
+            <div class="letterfirends">
+                <div class="leterr">D</div>
+                <div class="d-list-group firends">
+                    <img class="l-img" src="./images/avartar.png" alt="">
+                    <div class="l-m l-re">
+                        <div class="name">公众号</div>  
+                    </div>     
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 底部栏 -->
+        <div class="switchtab">
+            <ul class="d-list-group">
+                <li class="d-item-group">
+                    <img src="./images/msg.png" alt="">
+                    <div class="tabname">微信</div>
+                </li>
+                <li class="d-item-group">
+                    <img src="./images/rel.png" alt="">
+                    <div class="tabname">通讯录</div>
+                </li>
+                <li class="d-item-group">
+                    <img src="./images/fin.png" alt="">
+                    <div class="tabname">发现</div>
+                </li>
+                <li class="d-item-group"> 
+                    <img src="./images/user.png" alt="">
+                    <div class="tabname">我</div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
